@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sudoku game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="head">Sudoku</h1>
+    <div class="build">
+      <div class="diff">
+        <button class="btn" id="easy" onClick="level(1)">Easy</button>
+        <button class="btn" id="med" onClick="level(2)">Medium</button>
+        <button class="btn" id="hard" onClick="level(3)">Hard</button>
+      </div>
+    </div>
+
+    <div class="play">
+      <div id="board"></div>
+    </div>
+    <center>
+      <button class="val btn" onClick="validate()">Validate</button>
+    </center>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
